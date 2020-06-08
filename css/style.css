@@ -4,8 +4,52 @@
   box-sizing: border-box;
 }
 
+body{
+  background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
+}
+
 .clearfix::after {
   content: "";
   display: table;
-  clear: both;  
+  clear: both;
+}
+
+.container{
+  width:90%;
+  margin: 0 auto;
+}
+
+header {
+  height: 200px;
+  background-color: yellow;
+  margin-top: 20px;
+}
+
+.box {
+  padding: 15px 0;
+}
+
+aside {
+  height: 700px;
+  width: 25%;
+  background-color: pink;
+  float: left;
+}
+
+main {
+  height: 1200px;
+  width: 50%;
+  float:left;
+  padding: 0 15px;
+}
+
+footer {
+  height: 400px;
+  background-color: lightblue;
+}
+
+.substance {
+  height: 100%;
+  width: 100%;
+  background-color: purple;
 }
