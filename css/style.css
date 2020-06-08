@@ -32,24 +32,29 @@ header {
 aside {
   height: 700px;
   width: 25%;
-  background-color: pink;
   float: left;
 }
 
+.pages {
+  height:200px;
+  background-color: pink;
+  margin-bottom: 15px;
+}
+
 main {
-  height: 1200px;
+  height: 900px;
   width: 50%;
   float:left;
   padding: 0 15px;
-}
-
-footer {
-  height: 400px;
-  background-color: lightblue;
 }
 
 .substance {
   height: 100%;
   width: 100%;
   background-color: purple;
+}
+
+footer {
+  height: 400px;
+  background-color: lightblue;
 }
