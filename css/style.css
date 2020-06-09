@@ -4,57 +4,56 @@
   box-sizing: border-box;
 }
 
-body{
-  background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
-}
-
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
 
-.container{
-  width:90%;
-  margin: 0 auto;
+body {
+  background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
+}
+
+.container {
+  padding: 20px 20px 0 20px;box
 }
 
 header {
   height: 200px;
   background-color: yellow;
-  margin-top: 20px;
 }
 
-.box {
-  padding: 15px 0;
+.row {
+  margin: 10px 0;
 }
 
 aside {
-  height: 700px;
+  height: 250px;
   width: 25%;
   float: left;
 }
 
-.pages {
-  height:200px;
-  background-color: pink;
-  margin-bottom: 15px;
-}
-
-main {
-  height: 900px;
-  width: 50%;
-  float:left;
-  padding: 0 15px;
-}
-
-.substance {
-  height: 100%;
-  width: 100%;
+aside .box {
   background-color: purple;
 }
 
+main {
+  height: 700px;
+  width: 50%;
+  float:left;
+  padding: 0 10px;
+}
+
+main .box {
+  background-color: pink;
+}
+
+.box {
+  height: 100%;
+  margin-bottom: 10px;
+}
+
 footer {
-  height: 400px;
+  height: 200px;
   background-color: lightblue;
 }
